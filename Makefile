@@ -100,10 +100,18 @@ $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 
+	cp $(OUTPUT).dol boot.dol
+	mkdir apps
+	mkdir apps/WiiBrator2
+	mv boot.dol apps/WiiBrator2
+	cp release/* apps/WiiBrator2
+	zip -r WiiBrator2.zip apps
+	rm -rf apps
+
 #---------------------------------------------------------------------------------
 clean:
 	@echo clean ...
-	@rm -fr $(BUILD) $(OUTPUT).elf $(OUTPUT).dol
+	@rm -fr $(BUILD) *.elf *.dol *.zip
 
 #---------------------------------------------------------------------------------
 run:
