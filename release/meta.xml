@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+	<name>WiiBrator2</name>
+	<version>2.0</version>
+	<release_date>20220901000000</release_date>
+	<coder>oscie57</coder>
+	<short_description>Endlessly vibrate your Wii remote</short_description>
+	<long_description>Have some fun with your Wii remote, if ya know what I mean ;P
+</long_description>
+
+</app>
