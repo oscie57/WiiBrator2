@@ -100,8 +100,13 @@ $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 
-	mv $(OUTPUT).dol boot.dol
-	zip -r -j WiiBrator2.zip boot.dol release/icon.png release/meta.xml
+	cp $(OUTPUT).dol boot.dol
+	mkdir apps
+	mkdir apps/WiiBrator2
+	mv boot.dol apps/WiiBrator2
+	cp release/* apps/WiiBrator2
+	zip -r WiiBrator2.zip apps
+	rm -rf apps
 
 #---------------------------------------------------------------------------------
 clean:
