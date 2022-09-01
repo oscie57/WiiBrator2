@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
 
 
 	printf("   WiiBrator v2.0\n");
-	printf("   (c)2022 oscie57 - oscie.net, MethodOrMadness\n\n\n");
+	printf("   (c)2022 oscie57, MethodOrMadness\n\n\n");
 	printf("   DISCLAIMER: To avoid injury or aggravation of pre-existing conditions,\n   the vibrating Wii remote should not be used on swollen or inflamed\n   areas or skin lacerations. No medical claims are warranted or implied by\n   the use of this software. Exessive use of your vibrating Wii remote\n   will wear out the motor. Make sure your Wii remote is fully charged to\n   avoid disappointment. If the Wii remote gets unduly hot then stop and\n   allow it to cool down before restarting.\n\n\n");
 	printf("   Press A to turn on/off rumble\n");
 	printf("   Press B to enable/disable pulse mode\n\n");
