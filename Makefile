@@ -100,10 +100,13 @@ $(BUILD):
 	@[ -d $@ ] || mkdir -p $@
 	@$(MAKE) --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
 
+	mv $(OUTPUT).dol boot.dol
+	zip -r -j WiiBrator2.zip boot.dol release/icon.png release/meta.xml
+
 #---------------------------------------------------------------------------------
 clean:
 	@echo clean ...
-	@rm -fr $(BUILD) $(OUTPUT).elf $(OUTPUT).dol
+	@rm -fr $(BUILD) *.elf *.dol *.zip
 
 #---------------------------------------------------------------------------------
 run:
