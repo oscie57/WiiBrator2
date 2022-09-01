@@ -13,7 +13,3 @@ Using the provided Makefile, just run `make`. This is assuming you have devKitPP
 | `A`    | Toggle rumble    |
 | `B`    | Toggle pulse     |
 | `Home` | Exit application |
-
-## Pulse
-
-The pulse mode causes the remote to rumble in a pulse method, starting and stopping often.
