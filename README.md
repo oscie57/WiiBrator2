@@ -8,8 +8,8 @@ Using the provided Makefile, just run `make`. This is assuming you have devKitPP
 
 ## Controls
 
-| Button | Usage            |
-| :----- | :--------------- |
-| `A`    | Toggle rumble    |
-| `B`    | Toggle pulse     |
-| `Home` | Exit application |
+| Wii Button | GC Button | Usage            |
+| :--------- | :-------- | :--------------- |
+| `A`        | `A`       | Toggle rumble    |
+| `B`        | `B`       | Toggle pulse     |
+| `Home`     | `Start`   | Exit application |
