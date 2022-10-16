@@ -58,7 +58,6 @@ int main(int argc, char **argv) {
 			exit(0);
 		};
 		if ( gpressed & PAD_BUTTON_A ) {
-			printf("GC A");
 			if ( grumbling ) {
 				PAD_ControlMotor(0, 0);
 				grumbling = false;
