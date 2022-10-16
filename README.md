@@ -14,6 +14,8 @@ Using the provided Makefile, just run `make`. This is assuming you have devKitPP
 | `B`        | `B`       | Toggle pulse     |
 | `Home`     | `Start`   | Exit application |
 
+Third-Party GameCube controllers are confirmed to work.
+
 ## ⚠️ DISCLAIMER ⚠️
 
 DISCLAIMER: To avoid injury or aggravation of pre-existing conditions,
