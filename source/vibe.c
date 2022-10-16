@@ -10,6 +10,7 @@ static GXRModeObj *rmode = NULL;
 int main(int argc, char **argv) {
 
 	VIDEO_Init();
+	
 	WPAD_Init();
 	PAD_Init();
 
@@ -30,7 +31,7 @@ int main(int argc, char **argv) {
 
 	printf("\tWiiBrator v2.2\n");
 	printf("\t(c)2022 oscie57, MethodOrMadness\n\n");
-	printf("\tDISCLAIMER: To avoid injury or aggravation of pre-existing conditions,\n\tthe vibrating remote should not be used on swollen or inflamed areas\n\tor skin lacerations. No medical claims are warranted or implied by\n\tthe use of this software. Exessive use of your vibrating remote\n\twill wear out the motor.\n\n\n");
+	printf("\tDISCLAIMER: To avoid injury or aggravation of pre-existing conditions,\n\tthe vibrating remote should not be used on swollen or inflamed areas\n\tor skin lacerations. No medical claims are warranted or implied by\n\tthe use of this software. Excessive use of your vibrating remote\n\twill wear out the motor.\n\n\n");
 	printf("\tSupported controllers: Wii Remote, GameCube\n\n");
 	printf("\tPress A to turn on/off rumble\n");
 	printf("\tPress B to enable/disable pulse mode\n\n");
@@ -51,7 +52,7 @@ int main(int argc, char **argv) {
 		
 
 		u32 pressed = WPAD_ButtonsDown(0);
-		u32 gpressed = WPAD_ButtonsDown(0);
+		u32 gpressed = PAD_ButtonsDown(0);
 
 		if ( gpressed & PAD_BUTTON_START ) {
 			exit(0);
