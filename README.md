@@ -25,6 +25,9 @@ will wear out the motor.
 ## Credits
 
 [MethodOrMadness](https://github.com/MethodOrMadness) - Cleaning up the Makefile and creating automatic packaging.
+
 TeamDwiildo - Original inspiration for this project.
+
 [Larsenv](https://github.com/Larsenv) - Assisting with the creation of this project and motivation.
+
 [cat](https://twitter.com/CookieAndEllie) - Help for testing the GameCube controller compatibility.
